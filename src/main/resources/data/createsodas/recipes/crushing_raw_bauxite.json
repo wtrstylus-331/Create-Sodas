@@ -1,0 +1,14 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "createsodas:raw_bauxite"
+    }
+  ],
+  "processingTime": 500,
+  "results": [
+    {
+      "item": "createsodas:raw_aluminum"
+    }
+  ]
+}

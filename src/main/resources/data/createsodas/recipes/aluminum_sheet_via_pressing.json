@@ -1,0 +1,13 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "createsodas:aluminum_ingot"
+    }
+  ],
+  "results": [
+    {
+      "item": "createsodas:aluminum_sheet"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "createsodas:empty_dr_pepper"
+    },
+    {
+      "amount": 250,
+      "fluid": "createsodas:dr_pepper",
+      "nbt": {}
+    }
+  ],
+  "results": [
+    {
+      "item": "createsodas:dr_pepper"
+    }
+  ]
+}

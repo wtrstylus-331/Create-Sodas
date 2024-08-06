@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "createsodas:block/raw_bauxite_block"
+  }
+}

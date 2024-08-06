@@ -1,0 +1,16 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "createsodas:empty_unprinted_can"
+    },
+    {
+      "item": "minecraft:brown_wool"
+    }
+  ],
+  "results": [
+    {
+      "item": "createsodas:empty_root_beer"
+    }
+  ]
+}
