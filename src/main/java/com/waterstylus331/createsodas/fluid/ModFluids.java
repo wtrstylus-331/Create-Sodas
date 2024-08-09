@@ -28,6 +28,12 @@ public class ModFluids {
     public static final RegistryObject<FlowingFluid> FLOWING_DR_PEPPER = FLUIDS.register("flowing_dr_pepper",
             () -> new ForgeFlowingFluid.Flowing(ModFluids.DR_PEPPER_PROPS));
 
+    public static final RegistryObject<FlowingFluid> SOURCE_GINGER_ALE = FLUIDS.register("ginger_ale",
+            () -> new ForgeFlowingFluid.Source(ModFluids.ROOT_BEER_PROPS));
+
+    public static final RegistryObject<FlowingFluid> FLOWING_GINGER_ALE = FLUIDS.register("flowing_ginger_ale",
+            () -> new ForgeFlowingFluid.Flowing(ModFluids.ROOT_BEER_PROPS));
+
     public static final ForgeFlowingFluid.Properties ROOT_BEER_PROPS = new ForgeFlowingFluid.Properties(
             FluidTypes.ROOT_BEER_FLUID_TYPE, SOURCE_ROOTBEER, FLOWING_ROOT_BEER)
             .slopeFindDistance(2)
@@ -41,6 +47,13 @@ public class ModFluids {
             .levelDecreasePerBlock(2)
             .block(ModBlocks.DR_PEPPER_BLOCK)
             .bucket(ModItems.DR_PEPPER_BUCKET);
+
+    public static final ForgeFlowingFluid.Properties GINGER_ALE_PROPS = new ForgeFlowingFluid.Properties(
+            FluidTypes.GINGER_ALE_FLUID_TYPE, SOURCE_GINGER_ALE, FLOWING_GINGER_ALE)
+            .slopeFindDistance(2)
+            .levelDecreasePerBlock(2)
+            .block(ModBlocks.GINGER_ALE_BLOCK)
+            .bucket(ModItems.GINGER_ALE_BUCKET);
 
     public static void register(IEventBus bus) {
         FLUIDS.register(bus);
