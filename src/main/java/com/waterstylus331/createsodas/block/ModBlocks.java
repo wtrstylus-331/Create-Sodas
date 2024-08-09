@@ -1,15 +1,13 @@
 package com.waterstylus331.createsodas.block;
 
 import com.waterstylus331.createsodas.CreateSodas;
+import com.waterstylus331.createsodas.block.crops.SassafrasCropBlock;
 import com.waterstylus331.createsodas.fluid.ModFluids;
 import com.waterstylus331.createsodas.item.ModItems;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.Blocks;
-import net.minecraft.world.level.block.DropExperienceBlock;
-import net.minecraft.world.level.block.LiquidBlock;
+import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -33,11 +31,17 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.RAW_COPPER_BLOCK)
                     .strength(2f).requiresCorrectToolForDrops()));
 
+    public static final RegistryObject<Block> SASSAFRAS_PLANT = BLOCKS.register("sassafras_crop",
+            () -> new SassafrasCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion().noCollission()));
+
     public static final RegistryObject<LiquidBlock> ROOT_BEER_BLOCK = registerBlock("root_beer_block",
             () -> new LiquidBlock(ModFluids.SOURCE_ROOTBEER, BlockBehaviour.Properties.copy(Blocks.WATER)));
 
     public static final RegistryObject<LiquidBlock> DR_PEPPER_BLOCK = registerBlock("dr_pepper_block",
             () -> new LiquidBlock(ModFluids.SOURCE_DR_PEPPER, BlockBehaviour.Properties.copy(Blocks.WATER)));
+
+    public static final RegistryObject<LiquidBlock> GINGER_ALE_BLOCK = registerBlock("ginger_ale_block",
+            () -> new LiquidBlock(ModFluids.SOURCE_GINGER_ALE, BlockBehaviour.Properties.copy(Blocks.WATER)));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
