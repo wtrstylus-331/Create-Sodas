@@ -16,11 +16,11 @@ public class FluidTypes {
     public static final ResourceLocation FLOW = new ResourceLocation("block/water_flow");
     public static final ResourceLocation IN_ROOTBEER = new ResourceLocation(CreateSodas.MODID,"fluid/in_root_beer");
     public static final ResourceLocation IN_DR_PEPPER = new ResourceLocation(CreateSodas.MODID,"fluid/in_dr_pepper");
+    public static final ResourceLocation IN_GINGER_ALE = new ResourceLocation(CreateSodas.MODID,"fluid/in_ginger_ale");
 
     // todo - add more fluid types
     public static final DeferredRegister<FluidType> FLUID_TYPES =
             DeferredRegister.create(ForgeRegistries.Keys.FLUID_TYPES, CreateSodas.MODID);
-
 
     public static final RegistryObject<FluidType> ROOT_BEER_FLUID_TYPE = register("root_beer_fluid",
             STILL, FLOW, IN_ROOTBEER, 0xFF2B1501, new Vector3f(43f / 255f, 21f / 255f, 1f / 255f),
@@ -29,6 +29,11 @@ public class FluidTypes {
 
     public static final RegistryObject<FluidType> DR_PEPPER_FLUID_TYPE = register("dr_pepper_fluid",
             STILL, FLOW, IN_DR_PEPPER, 0xFF2B0101, new Vector3f(43f / 255f, 1f / 255f, 1f / 255f),
+            FluidType.Properties.create().lightLevel(2).density(5).viscosity(2).sound(SoundAction.get("drink"),
+                    SoundEvents.GENERIC_DRINK).canDrown(true).canSwim(true).supportsBoating(false));
+
+    public static final RegistryObject<FluidType> GINGER_ALE_FLUID_TYPE = register("ginger_ale_fluid",
+            STILL, FLOW, IN_GINGER_ALE, 0x99BA8C48, new Vector3f(186f / 255f, 140f / 255f, 72f / 255f),
             FluidType.Properties.create().lightLevel(2).density(5).viscosity(2).sound(SoundAction.get("drink"),
                     SoundEvents.GENERIC_DRINK).canDrown(true).canSwim(true).supportsBoating(false));
 
