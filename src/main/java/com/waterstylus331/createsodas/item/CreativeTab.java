@@ -25,6 +25,10 @@ public class CreativeTab {
                         pOutput.accept(new ItemStack(ModItems.ALUMINUM_INGOT.get()));
                         pOutput.accept(new ItemStack(ModItems.ALUMINUM_SHEET.get()));
 
+                        pOutput.accept(new ItemStack(ModItems.SASSAFRAS_SEEDS.get()));
+                        pOutput.accept(new ItemStack(ModItems.SASSAFRAS.get()));
+                        pOutput.accept(new ItemStack(ModItems.SASSAFRAS_ROOT.get()));
+
                         pOutput.accept(new ItemStack(ModItems.EMPTY_CAN.get()));
                         pOutput.accept(new ItemStack(ModItems.EMPTY_UNPRINTED_CAN.get()));
                         pOutput.accept(new ItemStack(ModItems.ROOT_BEER.get()));
