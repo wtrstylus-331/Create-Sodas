@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#Y",
+    "X"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:paper"
+    },
+    "X": {
+      "item": "minecraft:brown_wool"
+    },
+    "Y": {
+      "item": "minecraft:red_wool"
+    }
+  },
+  "result": {
+    "item": "createsodas:root_beer_print",
+    "count": 8
+  }
+}

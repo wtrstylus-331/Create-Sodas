@@ -1,0 +1,18 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "createsodas:empty_ginger_ale"
+    },
+    {
+      "amount": 100,
+      "fluid": "createsodas:ginger_ale",
+      "nbt": {}
+    }
+  ],
+  "results": [
+    {
+      "item": "createsodas:ginger_ale"
+    }
+  ]
+}

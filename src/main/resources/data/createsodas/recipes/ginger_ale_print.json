@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#Y",
+    "X"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:paper"
+    },
+    "X": {
+      "item": "minecraft:lime_wool"
+    },
+    "Y": {
+      "item": "minecraft:green_wool"
+    }
+  },
+  "result": {
+    "item": "createsodas:ginger_ale_print",
+    "count": 8
+  }
+}

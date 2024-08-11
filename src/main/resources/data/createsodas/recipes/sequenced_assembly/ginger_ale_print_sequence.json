@@ -1,0 +1,49 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "minecraft:paper"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "item": "createsodas:ginger_ale_print"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:paper"
+        },
+        {
+          "item": "minecraft:green_wool"
+        }
+      ],
+      "results": [
+        {
+          "item": "createsodas:incomplete_ginger_ale_print"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createsodas:incomplete_ginger_ale_print"
+        },
+        {
+          "item": "minecraft:lime_wool"
+        }
+      ],
+      "results": [
+        {
+          "item": "createsodas:incomplete_ginger_ale_print"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "createsodas:incomplete_root_beer_print"
+  }
+}
