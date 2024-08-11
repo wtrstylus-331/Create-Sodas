@@ -16,6 +16,8 @@ public class FluidTypes {
     public static final ResourceLocation FLOW = new ResourceLocation("block/water_flow");
     public static final ResourceLocation IN_ROOTBEER = new ResourceLocation(CreateSodas.MODID,"fluid/in_root_beer");
     public static final ResourceLocation IN_DR_PEPPER = new ResourceLocation(CreateSodas.MODID,"fluid/in_dr_pepper");
+    public static final ResourceLocation GINGER_ALE_STILL = new ResourceLocation(CreateSodas.MODID, "block/ginger_ale_still");
+    public static final ResourceLocation GINGER_ALE_FLOW = new ResourceLocation(CreateSodas.MODID, "block/ginger_ale_flow");
     public static final ResourceLocation IN_GINGER_ALE = new ResourceLocation(CreateSodas.MODID,"fluid/in_ginger_ale");
 
     // todo - add more fluid types
@@ -33,7 +35,7 @@ public class FluidTypes {
                     SoundEvents.GENERIC_DRINK).canDrown(true).canSwim(true).supportsBoating(false));
 
     public static final RegistryObject<FluidType> GINGER_ALE_FLUID_TYPE = register("ginger_ale_fluid",
-            STILL, FLOW, IN_GINGER_ALE, 0x99BA8C48, new Vector3f(186f / 255f, 140f / 255f, 72f / 255f),
+            GINGER_ALE_STILL, GINGER_ALE_FLOW, IN_GINGER_ALE, 0x99BA8C48, new Vector3f(186f / 255f, 140f / 255f, 72f / 255f),
             FluidType.Properties.create().lightLevel(2).density(5).viscosity(2).sound(SoundAction.get("drink"),
                     SoundEvents.GENERIC_DRINK).canDrown(true).canSwim(true).supportsBoating(false));
 
