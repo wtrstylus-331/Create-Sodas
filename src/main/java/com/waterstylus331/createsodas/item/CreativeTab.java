@@ -30,11 +30,20 @@ public class CreativeTab {
                         pOutput.accept(new ItemStack(ModItems.SASSAFRAS_ROOT.get()));
 
                         pOutput.accept(new ItemStack(ModItems.EMPTY_CAN.get()));
-                        pOutput.accept(new ItemStack(ModItems.EMPTY_UNPRINTED_CAN.get()));
                         pOutput.accept(new ItemStack(ModItems.ROOT_BEER.get()));
                         pOutput.accept(new ItemStack(ModItems.EMPTY_ROOT_BEER.get()));
                         pOutput.accept(new ItemStack(ModItems.DRPEPPER.get()));
                         pOutput.accept(new ItemStack(ModItems.EMPTY_DRPEPPER.get()));
+                        pOutput.accept(new ItemStack(ModItems.GINGER_ALE.get()));
+                        pOutput.accept(new ItemStack(ModItems.EMPTY_GINGER_ALE.get()));
+
+                        pOutput.accept(new ItemStack(ModItems.ROOT_BEER_PRINT.get()));
+                        pOutput.accept(new ItemStack(ModItems.DR_PEPPER_PRINT.get()));
+                        pOutput.accept(new ItemStack(ModItems.GINGER_ALE_PRINT.get()));
+
+                        pOutput.accept(new ItemStack(ModItems.ROOT_BEER_BUCKET.get()));
+                        pOutput.accept(new ItemStack(ModItems.DR_PEPPER_BUCKET.get()));
+                        pOutput.accept(new ItemStack(ModItems.GINGER_ALE_BUCKET.get()));
                     })
                     .build());
 
