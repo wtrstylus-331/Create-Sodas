@@ -91,6 +91,10 @@ public class CreateSodas
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event)
         {
+            event.enqueueWork(() -> {
+                ItemBlockRenderTypes.setRenderLayer(ModFluids.SOURCE_GINGER_ALE.get(), RenderType.translucent());
+                ItemBlockRenderTypes.setRenderLayer(ModFluids.FLOWING_GINGER_ALE.get(), RenderType.translucent());
+            });
         }
     }
 }
