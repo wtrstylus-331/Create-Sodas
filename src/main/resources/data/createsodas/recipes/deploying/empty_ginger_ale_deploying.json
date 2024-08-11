@@ -1,0 +1,16 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "createsodas:empty_can"
+    },
+    {
+      "item": "createsodas:ginger_ale_print"
+    }
+  ],
+  "results": [
+    {
+      "item": "createsodas:empty_ginger_ale"
+    }
+  ]
+}

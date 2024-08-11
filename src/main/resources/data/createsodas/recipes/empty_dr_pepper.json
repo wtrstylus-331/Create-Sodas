@@ -8,11 +8,11 @@
       "item": "createsodas:empty_can"
     },
     "X": {
-      "item": "createsodas:root_beer_print"
+      "item": "createsodas:dr_pepper_print"
     }
   },
   "result": {
-    "item": "createsodas:empty_root_beer",
+    "item": "createsodas:empty_dr_pepper",
     "count": 1
   }
 }

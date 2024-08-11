@@ -1,0 +1,49 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "minecraft:paper"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "item": "createsodas:dr_pepper_print"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:paper"
+        },
+        {
+          "item": "minecraft:red_wool"
+        }
+      ],
+      "results": [
+        {
+          "item": "createsodas:incomplete_dr_pepper_print"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createsodas:incomplete_dr_pepper_print"
+        },
+        {
+          "item": "minecraft:red_wool"
+        }
+      ],
+      "results": [
+        {
+          "item": "createsodas:incomplete_dr_pepper_print"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "createsodas:incomplete_root_beer_print"
+  }
+}

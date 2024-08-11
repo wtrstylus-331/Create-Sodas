@@ -5,12 +5,12 @@
       "item": "createsodas:empty_can"
     },
     {
-      "item": "minecraft:paper"
+      "item": "createsodas:dr_pepper_print"
     }
   ],
   "results": [
     {
-      "item": "createsodas:empty_unprinted_can"
+      "item": "createsodas:empty_dr_pepper"
     }
   ]
 }

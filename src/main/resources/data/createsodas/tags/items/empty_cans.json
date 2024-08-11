@@ -3,6 +3,7 @@
   "values": [
     "createsodas:empty_unprinted_can",
     "createsodas:empty_root_beer",
-    "createsodas:empty_dr_pepper"
+    "createsodas:empty_dr_pepper",
+    "createsodas:empty_ginger_ale"
   ]
 }

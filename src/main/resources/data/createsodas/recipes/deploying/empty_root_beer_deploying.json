@@ -1,0 +1,16 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "createsodas:empty_can"
+    },
+    {
+      "item": "createsodas:root_beer_print"
+    }
+  ],
+  "results": [
+    {
+      "item": "createsodas:empty_root_beer"
+    }
+  ]
+}
