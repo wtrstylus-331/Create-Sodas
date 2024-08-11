@@ -29,10 +29,10 @@ public class ModFluids {
             () -> new ForgeFlowingFluid.Flowing(ModFluids.DR_PEPPER_PROPS));
 
     public static final RegistryObject<FlowingFluid> SOURCE_GINGER_ALE = FLUIDS.register("ginger_ale",
-            () -> new ForgeFlowingFluid.Source(ModFluids.ROOT_BEER_PROPS));
+            () -> new ForgeFlowingFluid.Source(ModFluids.GINGER_ALE_PROPS));
 
     public static final RegistryObject<FlowingFluid> FLOWING_GINGER_ALE = FLUIDS.register("flowing_ginger_ale",
-            () -> new ForgeFlowingFluid.Flowing(ModFluids.ROOT_BEER_PROPS));
+            () -> new ForgeFlowingFluid.Flowing(ModFluids.GINGER_ALE_PROPS));
 
     public static final ForgeFlowingFluid.Properties ROOT_BEER_PROPS = new ForgeFlowingFluid.Properties(
             FluidTypes.ROOT_BEER_FLUID_TYPE, SOURCE_ROOTBEER, FLOWING_ROOT_BEER)
