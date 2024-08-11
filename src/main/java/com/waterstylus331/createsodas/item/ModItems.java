@@ -31,9 +31,6 @@ public class ModItems {
     public static final RegistryObject<Item> EMPTY_CAN = ITEMS.register("empty_can",
             () -> new Item(new Item.Properties().stacksTo(64)));
 
-    public static final RegistryObject<Item> EMPTY_UNPRINTED_CAN = ITEMS.register("empty_unprinted_can",
-            () -> new Item(new Item.Properties().stacksTo(64)));
-
     public static final RegistryObject<Item> SASSAFRAS_SEEDS = ITEMS.register("sassafras_seeds",
             () -> new ItemNameBlockItem(ModBlocks.SASSAFRAS_PLANT.get(), new Item.Properties()));
 
@@ -49,6 +46,12 @@ public class ModItems {
     public static final RegistryObject<Item> ROOT_BEER = ITEMS.register("root_beer",
             () -> new RootBeerItem(new Item.Properties().stacksTo(64)));
 
+    public static final RegistryObject<Item> ROOT_BEER_PRINT = ITEMS.register("root_beer_print",
+            () -> new Item(new Item.Properties().stacksTo(64)));
+
+    public static final RegistryObject<Item> INCOMPLETE_ROOT_BEER_PRINT = ITEMS.register("incomplete_root_beer_print",
+            () -> new Item(new Item.Properties().stacksTo(1)));
+
     public static final RegistryObject<Item> ROOT_BEER_BUCKET = ITEMS.register("root_beer_bucket",
             () -> new BucketItem(ModFluids.SOURCE_ROOTBEER, new Item.Properties().craftRemainder(Items.BUCKET).stacksTo(1)));
 
@@ -57,6 +60,13 @@ public class ModItems {
 
     public static final RegistryObject<Item> DRPEPPER = ITEMS.register("dr_pepper",
             () -> new DrPepperItem(new Item.Properties().stacksTo(64)));
+
+    public static final RegistryObject<Item> DR_PEPPER_PRINT = ITEMS.register("dr_pepper_print",
+            () -> new Item(new Item.Properties().stacksTo(64)));
+
+    public static final RegistryObject<Item> INCOMPLETE_DR_PEPPER_PRINT = ITEMS.register("incomplete_dr_pepper_print",
+            () -> new Item(new Item.Properties().stacksTo(1)));
+
 
     public static final RegistryObject<Item> DR_PEPPER_BUCKET = ITEMS.register("dr_pepper_bucket",
             () -> new BucketItem(ModFluids.SOURCE_DR_PEPPER, new Item.Properties().craftRemainder(Items.BUCKET).stacksTo(1)));
@@ -67,8 +77,14 @@ public class ModItems {
     public static final RegistryObject<Item> GINGER_ALE = ITEMS.register("ginger_ale",
             () -> new GingerAleItem(new Item.Properties().stacksTo(64)));
 
+    public static final RegistryObject<Item> GINGER_ALE_PRINT = ITEMS.register("ginger_ale_print",
+            () -> new Item(new Item.Properties().stacksTo(64)));
 
-    public static final RegistryObject<Item> GINGER_ALE_BUCKET = ITEMS.register("giner_ale_bucket",
+    public static final RegistryObject<Item> INCOMPLETE_GINGER_ALE_PRINT = ITEMS.register("incomplete_ginger_ale_print",
+            () -> new Item(new Item.Properties().stacksTo(1)));
+
+
+    public static final RegistryObject<Item> GINGER_ALE_BUCKET = ITEMS.register("ginger_ale_bucket",
             () -> new BucketItem(ModFluids.SOURCE_GINGER_ALE, new Item.Properties().craftRemainder(Items.BUCKET).stacksTo(1)));
 
     public static void register(IEventBus bus) {
