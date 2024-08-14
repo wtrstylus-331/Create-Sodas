@@ -5,16 +5,20 @@
   "item.createsodas.sassafras": "Sassafras",
   "item.createsodas.sassafras_root": "Sassafras Root",
 
+  "item.createsodas.ginger": "Ginger",
+
   "item.createsodas.root_beer": "Root Beer",
   "item.createsodas.empty_root_beer": "Empty Root Beer",
   "item.createsodas.root_beer_print": "Root Beer Print",
   "item.createsodas.incomplete_root_beer_print": "Incomplete Root Beer Print",
   "item.createsodas.root_beer_bucket": "Root Beer Bucket",
+
   "item.createsodas.dr_pepper": "Dr Pepper",
   "item.createsodas.empty_dr_pepper": "Empty Dr Pepper",
   "item.createsodas.dr_pepper_print": "Dr Pepper Print",
   "item.createsodas.incomplete_dr_pepper_print": "Incomplete Dr Pepper Print",
   "item.createsodas.dr_pepper_bucket": "Dr Pepper Bucket",
+
   "item.createsodas.ginger_ale": "Ginger Ale",
   "item.createsodas.empty_ginger_ale": "Empty Ginger Ale",
   "item.createsodas.ginger_ale_print": "Ginger Ale Print",
@@ -33,5 +37,6 @@
   "fluid_type.createsodas.root_beer_fluid": "Root Beer",
   "fluid_type.createsodas.dr_pepper_fluid": "Dr Pepper",
   "fluid_type.createsodas.ginger_ale_fluid": "Ginger Ale",
+
   "creativetab.mod_tab": "Create Sodas"
 }
