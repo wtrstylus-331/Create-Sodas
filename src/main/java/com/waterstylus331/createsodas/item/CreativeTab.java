@@ -5,6 +5,7 @@ import com.waterstylus331.createsodas.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -28,6 +29,7 @@ public class CreativeTab {
                         pOutput.accept(new ItemStack(ModItems.SASSAFRAS_SEEDS.get()));
                         pOutput.accept(new ItemStack(ModItems.SASSAFRAS.get()));
                         pOutput.accept(new ItemStack(ModItems.SASSAFRAS_ROOT.get()));
+                        pOutput.accept(new ItemStack(ModItems.GINGER_ITEM.get()));
 
                         pOutput.accept(new ItemStack(ModItems.EMPTY_CAN.get()));
                         pOutput.accept(new ItemStack(ModItems.ROOT_BEER.get()));
