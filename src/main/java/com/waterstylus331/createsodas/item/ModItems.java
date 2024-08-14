@@ -40,6 +40,9 @@ public class ModItems {
     public static final RegistryObject<Item> SASSAFRAS_ROOT = ITEMS.register("sassafras_root",
             () -> new Item(new Item.Properties().stacksTo(64)));
 
+    public static final RegistryObject<Item> GINGER_ITEM = ITEMS.register("ginger",
+            () -> new ItemNameBlockItem(ModBlocks.GINGER_PLANT.get(), new Item.Properties()));
+
     public static final RegistryObject<Item> EMPTY_ROOT_BEER = ITEMS.register("empty_root_beer",
             () -> new Item(new Item.Properties().stacksTo(64)));
 
