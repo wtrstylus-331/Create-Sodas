@@ -7,6 +7,8 @@ import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResultHolder;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
+import net.minecraft.world.entity.EntityType;
+import net.minecraft.world.entity.LightningBolt;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.food.FoodProperties;
@@ -60,13 +62,14 @@ public class DrPepperItem extends HoneyBottleItem {
             livingEntity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 1));
 
             /* prankster gangster gaming
-            for (int i = 0; i < 5; i++) {
+            for (int i = 0; i < 25; i++) {
                 LightningBolt bolt = EntityType.LIGHTNING_BOLT.create(level);
                 bolt.setPos(livingEntity.position().x, livingEntity.position().y,livingEntity.position().z);
-                bolt.setDamage(15);
+                bolt.setDamage(50);
 
                 level.addFreshEntity(bolt);
             }
+
              */
         }
 
