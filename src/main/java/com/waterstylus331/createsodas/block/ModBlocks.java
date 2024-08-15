@@ -1,6 +1,7 @@
 package com.waterstylus331.createsodas.block;
 
 import com.waterstylus331.createsodas.CreateSodas;
+import com.waterstylus331.createsodas.block.crops.CinnamonCropBlock;
 import com.waterstylus331.createsodas.block.crops.GingerCropBlock;
 import com.waterstylus331.createsodas.block.crops.SassafrasCropBlock;
 import com.waterstylus331.createsodas.fluid.ModFluids;
@@ -37,6 +38,9 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> GINGER_PLANT = BLOCKS.register("ginger_crop",
             () -> new GingerCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion().noCollission()));
+
+    public static final RegistryObject<Block> CINNAMON_PLANT = BLOCKS.register("cinnamon_crop",
+            () -> new CinnamonCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion().noCollission()));
 
     public static final RegistryObject<LiquidBlock> ROOT_BEER_BLOCK = registerBlock("root_beer_block",
             () -> new LiquidBlock(ModFluids.SOURCE_ROOTBEER, BlockBehaviour.Properties.copy(Blocks.WATER)));
