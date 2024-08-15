@@ -14,9 +14,6 @@
     },
     "age=4": {
       "model": "createsodas:block/ginger_plant_stage4"
-    },
-    "age=5": {
-      "model": "createsodas:block/ginger_plant_stage5"
     }
   }
 }
