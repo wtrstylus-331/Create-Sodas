@@ -30,6 +30,9 @@ public class CreativeTab {
                         pOutput.accept(new ItemStack(ModItems.SASSAFRAS.get()));
                         pOutput.accept(new ItemStack(ModItems.SASSAFRAS_ROOT.get()));
                         pOutput.accept(new ItemStack(ModItems.GINGER_ITEM.get()));
+                        pOutput.accept(new ItemStack(ModItems.CINNAMON_SEEDS.get()));
+                        pOutput.accept(new ItemStack(ModItems.CINNAMON_BRANCH.get()));
+                        pOutput.accept(new ItemStack(ModItems.CINNAMON.get()));
 
                         pOutput.accept(new ItemStack(ModItems.EMPTY_CAN.get()));
                         pOutput.accept(new ItemStack(ModItems.ROOT_BEER.get()));
