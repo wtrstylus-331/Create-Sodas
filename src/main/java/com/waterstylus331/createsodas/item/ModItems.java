@@ -43,6 +43,15 @@ public class ModItems {
     public static final RegistryObject<Item> GINGER_ITEM = ITEMS.register("ginger",
             () -> new ItemNameBlockItem(ModBlocks.GINGER_PLANT.get(), new Item.Properties()));
 
+    public static final RegistryObject<Item> CINNAMON_SEEDS = ITEMS.register("cinnamon_seeds",
+            () -> new ItemNameBlockItem(ModBlocks.CINNAMON_PLANT.get(), new Item.Properties()));
+
+    public static final RegistryObject<Item> CINNAMON_BRANCH = ITEMS.register("cinnamon_branch",
+            () -> new Item(new Item.Properties().stacksTo(64)));
+
+    public static final RegistryObject<Item> CINNAMON = ITEMS.register("cinnamon",
+            () -> new Item(new Item.Properties().stacksTo(64)));
+
     public static final RegistryObject<Item> EMPTY_ROOT_BEER = ITEMS.register("empty_root_beer",
             () -> new Item(new Item.Properties().stacksTo(64)));
 
