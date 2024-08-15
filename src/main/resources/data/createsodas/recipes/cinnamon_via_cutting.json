@@ -1,0 +1,15 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "createsodas:cinnamon_branch"
+    }
+  ],
+  "processingTime": 50,
+  "results": [
+    {
+      "item": "createsodas:cinnamon",
+      "count": 2
+    }
+  ]
+}

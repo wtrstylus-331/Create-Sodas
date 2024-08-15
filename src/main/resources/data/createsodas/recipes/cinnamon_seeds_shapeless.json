@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "createsodas:cinnamon"
+    }
+  ],
+  "result": {
+    "item": "createsodas:cinnamon_seeds",
+    "count": 4
+  }
+}
